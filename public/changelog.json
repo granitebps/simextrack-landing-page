@@ -1,0 +1,206 @@
+[
+  {
+    "version": "2.8.0",
+    "date": "2025-02-24",
+    "type": "minor",
+    "changes": [
+      "Add Register and Login with Google",
+      "Encrypt user data in App",
+      "Bug fixing and enhancement on web version"
+    ]
+  },
+  {
+    "version": "2.7.3",
+    "date": "2024-10-14",
+    "type": "patch",
+    "changes": [
+      "Show safebox balance when add item",
+      "Show safebox name and balance when open history from safebox",
+      "Setup for web application",
+      "Fix transaction when category deleted",
+      "Add category to transfer transaction"
+    ]
+  },
+  {
+    "version": "2.7.2",
+    "date": "2024-05-11",
+    "type": "patch",
+    "changes": [
+      "Improving error messages for better information",
+      "Load data in Home Screen partially so you don't need to wait for too long",
+      "Improve overall app performance",
+      "Fix some minor bugs"
+    ]
+  },
+  {
+    "version": "2.7.0",
+    "date": "2023-05-14",
+    "type": "minor",
+    "changes": [
+      "Guest Login for easy access",
+      "What's New Modal keeps you updated",
+      "Sync Safebox balance effortlessly",
+      "Separate expense and income categories",
+      "Improved date picker in the filter"
+    ]
+  },
+  {
+    "version": "2.6.2",
+    "date": "2022-07-29",
+    "type": "patch",
+    "changes": [
+      "Move API call to one file",
+      "Redesign Setting Screen",
+      "Redesign Filter Modal",
+      "Add check for maintenance and minimum version",
+      "Add functionality to update transaction"
+    ]
+  },
+  {
+    "version": "2.6.1",
+    "date": "2022-06-25",
+    "type": "patch",
+    "changes": [
+      "Change from formik to react-hook-form",
+      "Use UUID for external use",
+      "Move some code to constant",
+      "Add more placeholder date filter",
+      "Add term and condition in register",
+      "Fix safebox history empty if only have transfer transaction",
+      "Fix total balance logic in home screen"
+    ]
+  },
+  {
+    "version": "2.6.0",
+    "date": "2022-05-01",
+    "type": "minor",
+    "changes": [
+      "Update some config for production build",
+      "Make transaction name optional when creating transaction",
+      "Change InputMask component logic",
+      "Improve performance little bit",
+      "Add hidden button for showing error",
+      "Add total/initial balance when creating safebox",
+      "Add filter by transaction name",
+      "Add pull to refresh function",
+      "Add config for development app"
+    ]
+  },
+  {
+    "version": "2.5.1",
+    "date": "2022-04-19",
+    "type": "patch",
+    "changes": ["Change base URL", "Change API Key", "Change CHANGELOG file"]
+  },
+  {
+    "version": "2.5.0",
+    "date": "2022-04-10",
+    "type": "minor",
+    "changes": [
+      "Update startup screen when error appear",
+      "Update some packages",
+      "Add hide balance feature",
+      "Add weekly and monthly total expense"
+    ]
+  },
+  {
+    "version": "2.4.0",
+    "date": "2022-04-02",
+    "type": "minor",
+    "changes": [
+      "Improve Add Item Screen design",
+      "Setup EAS build for development",
+      "Fix some deprecated function in some packages",
+      "Move some sensitive value in env file",
+      "Add some API Key to public endpoint"
+    ]
+  },
+  {
+    "version": "2.3.4",
+    "date": "2022-03-27",
+    "type": "patch",
+    "changes": ["Upgrade to Expo 44", "Fix bug on history screen when error appear", "Save date as UTC timezone"]
+  },
+  {
+    "version": "2.3.3",
+    "date": "2021-12-19",
+    "type": "patch",
+    "changes": ["Fix transfer transaction"]
+  },
+  {
+    "version": "2.3.2",
+    "date": "2021-11-28",
+    "type": "patch",
+    "changes": [
+      "Add loading indicator when filter",
+      "Toast after transaction mode descriptive",
+      "Upgrade Native Base",
+      "Add pagination in history transaction"
+    ]
+  },
+  {
+    "version": "2.3.1",
+    "date": "2021-10-04",
+    "type": "patch",
+    "changes": [
+      "Upgrade native base and formik",
+      "Change error validation behavior",
+      "Remove react-native-root-toast and change to native base toast",
+      "Update validation to Yup"
+    ]
+  },
+  {
+    "version": "2.3.0",
+    "date": "2021-07-12",
+    "type": "minor",
+    "changes": ["Upgrade to Native Base 3", "Add google service json"]
+  },
+  {
+    "version": "2.2.2",
+    "date": "2021-07-04",
+    "type": "patch",
+    "changes": ["Fix tab warning", "Fix picker not working"]
+  },
+  {
+    "version": "2.2.1",
+    "date": "2021-07-04",
+    "type": "patch",
+    "changes": ["Add sentry", "Add app version in header", "Fix filter bug"]
+  },
+  {
+    "version": "2.2.0",
+    "date": "",
+    "type": "minor",
+    "changes": ["Update to Expo SDK 40", "Add logic to check for maintenance", "Add logic to check for minimum version"]
+  },
+  {
+    "version": "2.1.1",
+    "date": "2021-05-08",
+    "type": "patch",
+    "changes": ["Fix calendar bug on filter screen"]
+  },
+  {
+    "version": "2.1.0",
+    "date": "2021-04-25",
+    "type": "minor",
+    "changes": ["Add delete transaction on history screen", "Add button to give feedback on setting screen"]
+  },
+  {
+    "version": "2.0.0",
+    "date": "2021-04-11",
+    "type": "major",
+    "changes": ["SIMEXTRACK goes online!"]
+  },
+  {
+    "version": "1.2.0",
+    "date": "2020-11-15",
+    "type": "minor",
+    "changes": ["Upgrade some dependencies", "Remove some warning"]
+  },
+  {
+    "version": "1.0.0",
+    "date": "",
+    "type": "major",
+    "changes": ["First Release!"]
+  }
+]
