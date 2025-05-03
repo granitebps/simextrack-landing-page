@@ -9,7 +9,7 @@ export default function DeveloperSection() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <AnimateOnScroll animation="fade-in" className="flex justify-center">
             <div className="relative h-[300px] w-[300px] overflow-hidden rounded-full border-8 border-muted transition-all duration-500 hover:shadow-xl hover:scale-105">
-              <Image src="/dev-1.jpg" alt="Developer Profile" width={300} height={300} className="object-cover" />
+              <Image src="/dev-1.webp" alt="Developer Profile" width={300} height={300} className="object-cover" />
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll animation="slide-in-right" className="flex flex-col justify-center space-y-4">

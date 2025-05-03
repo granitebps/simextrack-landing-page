@@ -38,7 +38,7 @@ export default function HeroSection() {
           <AnimateOnScroll animation="fade-in" delay={300} className="flex items-center justify-center">
             <div className="relative h-[500px] w-[250px] overflow-hidden rounded-xl border-8 border-foreground/10 shadow-xl transition-all duration-500 hover:shadow-2xl hover:scale-105">
               <Image
-                src="/iphone_hand.png"
+                src="/iphone_hand.webp"
                 alt="SIMEXTRACK App Dashboard Screenshot showing expense tracking interface"
                 width={400}
                 height={800}

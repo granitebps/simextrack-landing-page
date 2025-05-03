@@ -3,16 +3,16 @@ import ScreenshotGallery from "@/components/screenshot-gallery"
 
 // Sample screenshots data
 const screenshots = [
-  { src: "/screenshot-1.jpeg", alt: "Dashboard Screenshot" },
-  { src: "/screenshot-2.jpeg", alt: "Expense Entry Screenshot" },
-  { src: "/screenshot-3.jpeg", alt: "Reports Screenshot" },
-  { src: "/screenshot-4.jpeg", alt: "Budget Planning Screenshot" },
-  { src: "/screenshot-5.jpeg", alt: "Settings Screenshot" },
-  { src: "/screenshot-6.jpeg", alt: "Categories Screenshot" },
-  { src: "/screenshot-7.jpeg", alt: "Goals Screenshot" },
-  { src: "/screenshot-8.jpeg", alt: "Statistics Screenshot" },
-  { src: "/screenshot-9.jpeg", alt: "Statistics Screenshot" },
-  { src: "/screenshot-10.jpeg", alt: "Statistics Screenshot" },
+  { src: "/screenshot-1.webp", alt: "Dashboard Screenshot" },
+  { src: "/screenshot-2.webp", alt: "Expense Entry Screenshot" },
+  { src: "/screenshot-3.webp", alt: "Reports Screenshot" },
+  { src: "/screenshot-4.webp", alt: "Budget Planning Screenshot" },
+  { src: "/screenshot-5.webp", alt: "Settings Screenshot" },
+  { src: "/screenshot-6.webp", alt: "Categories Screenshot" },
+  { src: "/screenshot-7.webp", alt: "Goals Screenshot" },
+  { src: "/screenshot-8.webp", alt: "Statistics Screenshot" },
+  { src: "/screenshot-9.webp", alt: "Statistics Screenshot" },
+  { src: "/screenshot-10.webp", alt: "Statistics Screenshot" },
 ]
 
 export default function ScreenshotsSection() {
