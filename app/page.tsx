@@ -24,7 +24,7 @@ const ChangelogSection = dynamic(() => import("@/components/sections/changelog-s
 
 export default function LandingPage() {
   // You can replace this with your actual logo path
-  const logoPath = "/favico.png"
+  const logoPath = "/favico.webp"
   const isDevelopment = process.env.NODE_ENV === "development"
 
   return (
