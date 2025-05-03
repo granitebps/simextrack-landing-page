@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "SIMEXTRACK - Simple Expense Tracker",
     short_name: "SIMEXTRACK",
     description:
-      "SIMEXTRACK is an app that can track your money in the simplest way you can imagine and very customizable.",
+      "SIMEXTRACK is a simple yet powerful expense tracker and budgeting app. Easily manage your money, track income and spending, and set financial goals with customizable tools that adapt to your lifestyle.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -24,5 +24,8 @@ export default function manifest(): MetadataRoute.Manifest {
         purpose: "any",
       },
     ],
+    scope: "/",
+    orientation: "portrait",
+    lang: "en",
   }
 }

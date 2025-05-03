@@ -23,26 +23,34 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  userScalable: true,
+  interactiveWidget: "resizes-content",
 }
 
 export const metadata: Metadata = {
+  applicationName: "SIMEXTRACK",
   metadataBase: new URL("https://simextrack.my.id"), // Replace with your actual domain
   title: {
     default: "SIMEXTRACK - Simple Expense Tracker App",
-    template: "%s | SIMEXTRACK",
+    template: "%s - SIMEXTRACK | Simple Expense Tracker App",
   },
   description:
-    "SIMEXTRACK is an app that can track your money in the simplest way you can imagine and very customizable.",
+    "SIMEXTRACK is a simple yet powerful expense tracker and budgeting app. Easily manage your money, track income and spending, and set financial goals with customizable tools that adapt to your lifestyle.",
   keywords: [
     "expense tracker",
-    "budget app",
-    "finance management",
     "money tracker",
-    "personal finance",
-    "financial goals",
+    "budget app",
     "spending tracker",
     "budget planner",
-    "financial app",
+    "finance management app",
+    "personal finance app",
+    "track income and expenses",
+    "customizable finance tracker",
+    "simple budget app",
+    "set financial goals",
+    "easy money tracking",
+    "money management tool",
+    "secure financial tracker",
     "SIMEXTRACK",
   ],
   authors: [
@@ -82,7 +90,7 @@ export const metadata: Metadata = {
     url: "https://simextrack.my.id",
     title: "SIMEXTRACK - Simple Expense Tracker App",
     description:
-      "SIMEXTRACK is an app that can track your money in the simplest way you can imagine and very customizable.",
+      "SIMEXTRACK is a simple yet powerful expense tracker and budgeting app. Easily manage your money, track income and spending, and set financial goals with customizable tools that adapt to your lifestyle.",
     siteName: "SIMEXTRACK",
     images: [
       {
@@ -97,7 +105,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SIMEXTRACK - Simple Expense Tracker App",
     description:
-      "SIMEXTRACK is an app that can track your money in the simplest way you can imagine and very customizable.",
+      "SIMEXTRACK is a simple yet powerful expense tracker and budgeting app. Easily manage your money, track income and spending, and set financial goals with customizable tools that adapt to your lifestyle.",
     creator: "@granitbps", // Replace with your actual Twitter handle
     images: ["https://simextrack.my.id/logo.png"], // Replace with your actual Twitter image
   },
@@ -168,18 +176,14 @@ export default function RootLayout({
               name: "SIMEXTRACK",
               operatingSystem: "Android, iOS",
               applicationCategory: "FinanceApplication",
-              // offers: {
-              //   "@type": "Offer",
-              //   price: "0",
-              //   priceCurrency: "USD",
-              // },
-              // aggregateRating: {
-              //   "@type": "AggregateRating",
-              //   ratingValue: "4.8",
-              //   ratingCount: "1024",
-              // },
               description:
-                "SIMEXTRACK is an app that can track your money in the simplest way you can imagine and very customizable.",
+                "SIMEXTRACK is a simple yet powerful expense tracker and budgeting app. Easily manage your money, track income and spending, and set financial goals with customizable tools that adapt to your lifestyle.",
+              offers: {
+                "@type": "Offer",
+                price: "0",
+                priceCurrency: "USD",
+              },
+              screenshot: "https://simextrack.my.id/screenshot-2.webp",
             }),
           }}
         />
@@ -198,6 +202,11 @@ export default function RootLayout({
                 "https://www.instagram.com/granitbps",
                 "https://www.linkedin.com/in/granitebps",
               ],
+              contactPoint: {
+                "@type": "ContactPoint",
+                email: "info@granitebps.com",
+                contactType: "customer support",
+              },
             }),
           }}
         />
